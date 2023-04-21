@@ -1,14 +1,13 @@
-import React from 'react';
-import './Pricing.scss';
-import { Link } from 'react-router-dom';
-import { FaFire } from 'react-icons/fa';
-import { BsXDiamondFill } from 'react-icons/bs';
-import { GiCutDiamond } from 'react-icons/gi';
+import React from 'react'
+import './Pricing.scss'
+import { Link } from 'react-router-dom'
+import { FaFire } from 'react-icons/fa'
+import { BsXDiamondFill } from 'react-icons/bs'
+import { GiCutDiamond } from 'react-icons/gi'
 import { IconContext } from 'react-icons/lib'
-import Button from '../../components/Button/Button';
+import Button from '../../components/Button/Button'
 
 function Pricing() {
-
   return (
     <IconContext.Provider value={{color: '#3f3d56', size: 64}}>
       <div className="pricing">
@@ -72,12 +71,11 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-
           </div>
         </div>
       </div>
     </IconContext.Provider>
-  );
+  )
 }
 
 export default Pricing

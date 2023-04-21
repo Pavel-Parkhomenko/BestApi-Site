@@ -1,18 +1,16 @@
-import './App.scss';
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Home from './pages/Home/Home';
-import Products from './pages/Products/Products';
-import Services from './pages/Services/Services';
-import Pricing from './pages/Pricing/Pricing';
-import SignIn from './pages/SignIn/SignIn';
-import Footer from './components/Footer/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import './App.scss'
+import React from 'react'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar'
+import Home from './pages/Home/Home'
+import Products from './pages/Products/Products'
+import Services from './pages/Services/Services'
+import Pricing from './pages/Pricing/Pricing'
+import SignIn from './pages/SignIn/SignIn'
+import Footer from './components/Footer/Footer'
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <Navbar />
         <Routes>
            <Route path='/' element={ <Home /> } />
@@ -23,7 +21,7 @@ function App() {
         </Routes>
       <Footer />
     </Router>
-  );
+  )
 }
 
 export default App;
