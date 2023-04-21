@@ -23,4 +23,4 @@
 
 ## Preview
 
-![Preview](/путь/к/изображению.jpg "Home")
+![Preview](https://github.com/Pavel-Parkhomenko/BestApi-Site/blob/master/preview/img.png "Home")
