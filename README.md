@@ -5,6 +5,8 @@
 > selling other virtual things. Made according to a 
 > layout from the company using some PNG images from popular stock sites.
 
+### [Figma](https://www.figma.com/file/08blRg6xP7rsoXD8lNTtR5/Untitled?node-id=0-1&t=ULXiMZae6heNsJb8-0 "Layout Figma")
+
 ## Stack
 
 - React
