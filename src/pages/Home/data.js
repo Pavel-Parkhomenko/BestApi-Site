@@ -1,14 +1,17 @@
+import home1 from '../../img/home1.png'
+import home3 from '../../img/home3.png'
+import home2 from '../../img/home2.png'
 export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: 'Product Spotlight',
-    headline: 'Unlimited Transaction with 5% cash back',
+    headline: 'If you use our API service for the first time, you get a 30% discount',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ullam debitis amet, voluptates iusto, illo consequatur architecto modi quia, doloremque.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: '/images/svg-home-1.svg',
-    alt: 'Credit Card display image',
+    img: home1,
+    alt: 'Api image',
     pageDirect: 'pricing'
 };
 
@@ -16,12 +19,12 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Pay with Reward',
-    headline: 'Seamless rewards redemption',
+    topLine: 'Lorem ipsum dolor',
+    headline: 'Lorem ipsum dolor, sit amet',
     description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet soluta ipsa quibusdam, repellendus voluptas ducimus libero expedita minus necessitatibus sint, natus voluptates error.',
     buttonLabel: 'Sign Up Now',
     imgStart: '',
-    img: '/images/svg-home-2.svg',
+    img: home3,
     alt: 'Users mobile phone display image',
     pageDirect: 'sign-in'
   };
@@ -30,12 +33,12 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Data Analyzer',
-    headline: 'Your transaction data is powerful',
+    topLine: 'Lorem ipsum',
+    headline: 'Lorem ipsum dolor sit amet consectetur',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quae sapiente natus consequatur, animi sunt est veritatis reprehenderit expedita reiciendis.',
     buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: '/images/svg-home-3.svg',
+    img: home2,
     alt: 'Reward redemption display image',
     pageDirect: 'services'
   };

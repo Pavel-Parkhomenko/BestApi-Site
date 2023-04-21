@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import Button  from './Button';
+import Button  from '../Button/Button';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { SiAdguard } from 'react-icons/si';

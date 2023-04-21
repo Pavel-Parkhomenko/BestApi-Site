@@ -1,7 +1,7 @@
 import React from 'react';
 import './SignIn.scss';
 import { Link } from 'react-router-dom';
-import Button from '../../components/Button';
+import Button from '../../components/Button/Button';
 import { SiAdguard } from 'react-icons/si';
 
 function SignIn() {

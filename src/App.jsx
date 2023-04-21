@@ -1,29 +1,25 @@
 import './App.scss';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
 import Services from './pages/Services/Services';
 import Pricing from './pages/Pricing/Pricing';
 import SignIn from './pages/SignIn/SignIn';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Navbar />
         <Routes>
-           <Route path='/credit-card-app' exact>
-             <Redirect to="/" />
-           </Route>
-           <Route path='/' exact component={ Home } />
-           <Route path='/products' exact component={ Products } />
-           <Route path='/services' exact component={ Services } />
-           <Route path='/pricing' exact component={ Pricing } />
-           <Route path='/sign-in' exact component={ SignIn } />
+           <Route path='/' element={ <Home /> } />
+           <Route path='/products' element={ <Products /> } />
+           <Route path='/services' element={ <Services /> } />
+           <Route path='/pricing' element={ <Pricing />} />
+           <Route path='/sign-in' element={ <SignIn /> } />
         </Routes>
       <Footer />
     </Router>
