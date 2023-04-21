@@ -2,8 +2,10 @@ import React from 'react';
 import './Footer.scss';
 import Button  from '../Button/Button';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { SiAdguard } from 'react-icons/si';
+import {
+  FaFacebook, FaInstagram, FaYoutube,
+  FaTwitter, FaLinkedin, FaPiedPiper
+} from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -62,10 +64,10 @@ function Footer() {
             <div className='social-media-wrap'>
               <div className='footer-logo'>
                 <Link to='#' className='social-logo'>
-                   <SiAdguard />&nbsp;Guardian
+                   <FaPiedPiper />&nbsp;Best API
                 </Link>
               </div>
-              <small className='website-rights'>Guardian © 2021</small>
+              <small className='website-rights'>Best API © 2023</small>
               <div className='social-icons'>
                 <Link className='social-icon-link' to='#' aria-label='Facebook'>
                     <FaFacebook />

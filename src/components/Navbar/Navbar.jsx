@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { SiAdguard } from 'react-icons/si';
+import { FaPiedPiper } from 'react-icons/fa';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Button from '../Button/Button';
 import './Navbar.scss';
@@ -34,7 +34,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-              <SiAdguard className="navbar-icon" />Best Api
+              <FaPiedPiper className="navbar-icon" />Best Api
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

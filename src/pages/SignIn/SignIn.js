@@ -2,7 +2,7 @@ import React from 'react';
 import './SignIn.scss';
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
-import { SiAdguard } from 'react-icons/si';
+import { FaPiedPiper } from 'react-icons/fa';
 
 function SignIn() {
     return (
@@ -10,7 +10,7 @@ function SignIn() {
             <div className="sign-in__wrapper">
                 <div className="sign-in__container sign-in-side-1">
                     <Link to='/' className="sign-in-logo">
-                        <SiAdguard />
+                        <FaPiedPiper />
                     </Link>
                 </div>
                 <div className="sign-in__container sign-in-side-2">
